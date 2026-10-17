@@ -10,8 +10,8 @@ jobs:
   receiver:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version: '22'
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
@@ -19,8 +19,8 @@ jobs:
   android-and-windows-scripts:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-java@v6.1.0
         with:
           distribution: temurin
           java-version: '17'
@@ -40,7 +40,7 @@ jobs:
         run: ./android/Build-Apk.ps1
       - name: Check Python syntax
         run: python -m py_compile webcam-output.py
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7.0.2
         with:
           name: Spid9y-Cam-development-build
           path: android/build/Spid9y-Cam-Development.apk
