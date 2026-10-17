@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="io.github.spiderman99sumit.spid9ycam" android:versionCode="1" android:versionName="0.1.0-beta.1">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="32" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-feature android:name="android.hardware.camera.any" android:required="true" />
+  <application android:label="Spid9y Cam" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:hardwareAccelerated="true" android:usesCleartextTraffic="true">
+    <activity android:name=".CameraActivity" android:screenOrientation="sensorLandscape" android:exported="true" android:configChanges="orientation|screenSize">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+</manifest>

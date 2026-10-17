@@ -1,0 +1,26 @@
+name: Bug report or compatibility result
+description: Report a reproducible problem or another phone's test result.
+body:
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model and Android version
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows, OBS, and Spid9y Cam versions
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened and how can we reproduce it?
+      description: Include selected camera and direct Media Source vs webcam output. Do not upload private camera pictures, credentials, or full device dumps.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected behavior and relevant error text

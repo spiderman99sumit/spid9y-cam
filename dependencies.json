@@ -1,0 +1,37 @@
+{
+  "ffmpeg": {
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+    "version": "9.0.2",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip"
+  },
+  "wheels": [
+    {
+      "sha256": "86945f2ee6d10cdfd67bcb4069c1662dd711f7e2a4343db5cecec06b87cf31aa",
+      "name": "numpy",
+      "version": "2.3.5",
+      "url": "https://files.pythonhosted.org/packages/2d/57/8aeaf160312f7f489dea47ab61e430b5cb051f59a98ae68b7133ce8fa06a/numpy-2.3.5-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "sha256": "761f8d25e96d7987e0c383ac144bd5d314b9d4edee07e844f057dfb6c8ddb6da",
+      "name": "pyvirtualcam",
+      "version": "0.15.0",
+      "url": "https://files.pythonhosted.org/packages/e4/7b/62f987f4c204d23e9e71b90997f9d9dca83dd05a7997001b11af9721d1a6/pyvirtualcam-0.15.0-cp312-cp312-win_amd64.whl"
+    }
+  ],
+  "python": {
+    "sha256": "4acbed6dd1c744b0376e3b1cf57ce906f9dc9e95e68824584c8099a63025a3c3",
+    "version": "3.12.10",
+    "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-embed-amd64.zip"
+  },
+  "node": {
+    "sha256": "f9683a19877e12a9b167305c8db71040d812876359de21f0d2e97c3f321f80c3",
+    "version": "24.22.0",
+    "url": "https://nodejs.org/dist/v24.22.0/node-v24.22.0-win-x64.zip"
+  },
+  "adb": {
+    "sha1": "e03e78b1d80b396f1c3358e31251cb31740e1110",
+    "version": "37.0.1",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+    "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99"
+  }
+}
